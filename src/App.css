@@ -1,38 +1,58 @@
-.App {
+.ProfileCard{
+  width: 300px;
+  height: 300px;
+  padding: 100px;
+  border: 15px solid rgb(223, 141, 73);
+  margin: auto;
+  background-color: rgb(247, 190, 106);
+  font-size: 11px;
+  color: rgb(238, 214, 162);
+  border-radius: 15px;
+  background-image: url("https://pbs.twimg.com/media/GMzvRNTbIAAEEmV.jpg:large");
+  background-size: cover;
+  background-position: center;
   text-align: center;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.ProfileCard2{
+  width: 300px;
+  height: 300px;
+  padding: 100px;
+  border: 15px solid rgb(223, 141, 73);
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-469px);
+  margin: auto;
+  background-color: rgb(247, 190, 106);
+  font-size: 11px;
+  color: rgb(238, 214, 162);
+  border-radius: 15px;
+  background-image:url("/src/images/Jalter.jpg");
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.ProfileCard3{
+  width: 300px;
+  height: 300px;
+  padding: 100px;
+  border: 15px solid rgb(223, 141, 73);
+  position: absolute;
+  left: -30px;
+  top: -15px;
+  transform: translateX(-1335px);
+  margin: auto;
+  background-color: rgb(247, 190, 106);
+  font-size: 11px;
+  color: rgb(238, 194, 100);
+  border-radius: 15px;
+  background-image:url("/src/images/cruz-vu-okitaalter.jpg");
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }

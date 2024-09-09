@@ -1,29 +1,32 @@
-import logo from './logo.svg';
 import './App.css';
+import Greeting from './Greeting';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <p>
-          Ima touch you little Man        
-        </p>
-        
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+   <div className="ProfileCard">
+    <style>
+    
+    </style>
+    <Greeting name=" Name: Joshua Gabriel L. Flores"/>
+    <Greeting Age="Age: 21" />
+    <Greeting Description="About me:  Aspiring Game Developer"/>
+    <Greeting Location=" Location: Manila"/>
+
+    <div className='ProfileCard2'>
+    <Greeting name=" Name: John Phoenix"/>
+    <Greeting Age="Age: 30" />
+    <Greeting Description="About me:  Aspiring Software Engineer"/>
+    <Greeting Location=" Location: Los Angeles"/>
+
+    <div className='ProfileCard3'>
+    <Greeting name=" Name: Reyna Cruz"/>
+    <Greeting Age="Age: 30" />
+    <Greeting Description="About me:  Aspiring Web Designer"/>
+    <Greeting Location=" Location: San Francisco"/>
     </div>
-  );
+    </div>
+   </div>
+  )
 }
 
 export default App;
