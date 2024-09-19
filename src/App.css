@@ -18,11 +18,9 @@
 .ProfileCard2{
   width: 300px;
   height: 300px;
-  padding: 100px;
-  position: absolute;
-  right: 0;
-  top:51%;
-  transform: translateY(-660px);
+  padding: 100px;;
+  margin-top: -530px;
+  margin-left:1000px;
   border: 15px solid rgb(223, 141, 73);
   background-color: rgb(247, 190, 106);
   font-size: 11px;
@@ -39,10 +37,10 @@
   width: 300px;
   height: 300px;
   padding: 100px;
+  transform: translateY(-655px);
+  right: 0;
+  top: 50%;
   position: absolute;
-  left: 0%;
-  transform: translateX(-1000px);
-  margin-top: -325px;
   border: 15px solid rgb(223, 141, 73);
   background-color: rgb(247, 190, 106);
   font-size: 11px;
